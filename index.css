@@ -1,0 +1,130 @@
+/* Add a black background color to the top navigation */
+.topnav {
+background-color: #b11d1d;
+overflow: hidden;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+    background-color: #f8c419;
+    color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+    background-color: #f8c419;
+    color: rgb(0, 0, 0);
+    }
+
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #f9feff;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.content {
+flex: 1;
+overflow-y: auto;
+}
+
+
+.ir {
+display: inline-block;
+border-radius: 4px;
+background-color: #f8c419;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+padding: 5px 10px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+
+    .ir span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .ir span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+
+    .ir:hover span {
+    padding-right: 25px;
+    }
+
+    .ir:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+
+.h1{
+padding-top: 100px;
+padding-left: 100px;
+}
+
+.programs {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 600px; /* Defina a largura total desejada */
+margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+    .prog1 {
+    width: 290px;
+    height: 354px;
+    background: #b11d1d;
+    color: #f2f2f2;
+    border-radius: 40px 0 40px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px; /* Aumenta o espaço entre .prog1 e .prog2 */
+    }
+
+    .prog2 {
+    width: 290px;
+    height: 354px;
+    background: #b11d1d;
+    color: #f2f2f2;
+    border-radius: 40px 0 40px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px; /* Aumenta o espaço entre .prog1 e .prog2 */
+    }
