@@ -193,7 +193,6 @@ img {
     margin-top: 20px; /* Aumente o espaço entre .prog1 e .prog3 */
     order: 3; /* Define a ordem do elemento .prog3 */
 }
-
 .prog4 {
     text-align: center;
     width: 290px;
@@ -236,3 +235,33 @@ img {
         width: 100%;
     }
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #b11d1d;
+    color: #f2f2f2;
+}
+
+li{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+button{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* -------------------------------------------animações ----------------------------------------------------*/
+
+
