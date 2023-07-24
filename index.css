@@ -194,6 +194,23 @@ img {
     order: 3; /* Define a ordem do elemento .prog3 */
 }
 
+.prog4 {
+    text-align: center;
+    width: 290px;
+    height: 354px;
+    background: #b11d1d;
+    color: #f2f2f2;
+    border-radius: 40px 0 40px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px; /* Aumente o espaço entre .prog1 e .prog3 */
+    margin-left: 20px;
+    order: 4; /* Define a ordem do elemento .prog3 */
+}
+
 /* Media queries para telas menores */
 
 @media screen and (max-width: 768px) {
