@@ -11,7 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         'fundo': "url('./static/Rectangle 1.jpg')",
-        'cel_fun': "url('./static/Rectangle 1 (1).jpg')"
+        'cel_fun': "url('./static/Rectangle 1 (1).jpg')",
       },
   },
   plugins: [require('@tailwindcss/forms'),
