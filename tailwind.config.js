@@ -10,7 +10,7 @@ module.exports = {
         cyan: colors.cyan,
       },
       backgroundImage: {
-        'fundo': "url('./static/Rectangle1.jpg')",
+        'fundo': "url('/static/Rectangle1.jpg')",
         'cel_fun': "url('./static/Rectangle1(1).jpg')",
       },
   },
